@@ -372,7 +372,7 @@ class Transceiver:
         return val
 
 if __name__ == "__main__":
-    #from SX1276 import Transceiver
+    from SX1276 import Transceiver
     from machine import SPI, Pin
     import machine
     import utime
